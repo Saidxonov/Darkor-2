@@ -1,0 +1,80 @@
+.top-content {
+  text-align: center;
+}
+
+.top-content h2 {
+  color: lightgray;
+  font-size: 30px;
+}
+
+.top-content h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.input {
+  margin-left: 400px;
+  margin-top: 50px;
+  height: 48px;
+  border-radius: 10px 0px 0px 10px;
+  border-bottom: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+  border-top: 2px solid lightgray;
+  border-right: none;
+  width: 25%;
+  padding-left: 10px;
+  font-family: "Poppins";
+}
+
+.input-container {
+  margin-top: 10px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.add-button {
+  width: 50px;
+  height: 48px;
+  border-radius: 0px 10px 10px 0px;
+  border-bottom: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+  border-top: 2px solid lightgray;
+  border-left: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.todo-list {
+  margin-left: 400px;
+  margin-top: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  width: 333px;
+  background-color: lightgray;
+  margin-bottom: 10px;
+}
+
+.delete-button {
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: red;
+  color: #fff;
+  border: none;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+.chart {
+  width: 500px;
+  margin: 0 auto;
+}

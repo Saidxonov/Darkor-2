@@ -1,0 +1,62 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #5361e4;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.links ul {
+  display: flex;
+  align-items: center;
+  column-gap: 48px;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.arrow {
+  transition: 0.3s;
+}
+
+.arrow:hover {
+  transform: rotate(-90deg);
+  transition: 0.3s;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  column-gap: 38px;
+}
+
+.button button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.24px;
+  color: #5361e4;
+  padding: 12px 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}

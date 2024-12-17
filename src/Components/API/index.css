@@ -1,0 +1,26 @@
+.top-content {
+  text-align: center;
+}
+.top-content h2 {
+  color: lightgray;
+}
+.card_api {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  border: 2px solid #5361e4;
+  border-radius: 10px;
+  width: 100%;
+}
+.id {
+  text-align: center;
+  color: #000;
+  font-size: 60px;
+}
+.local {
+  text-align: center;
+}
+.all {
+  text-align: center;
+}

@@ -1,0 +1,52 @@
+.top-content {
+  text-align: center;
+}
+.top-content h2 {
+  color: lightgray;
+}
+span {
+  color: red;
+}
+#name {
+  width: 702px;
+  height: 56px;
+  padding: 18px;
+  border: 1px solid #e3e3e3;
+  gap: 10px;
+  border-radius: 16px;
+}
+input:focus {
+  outline: none;
+}
+.form {
+  margin-top: 40px;
+}
+.name {
+  margin-top: 20px;
+}
+.save-btn {
+  color: #fff;
+  padding: 20px 43px;
+  background-color: #5361e4;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.24px;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-top: 42px;
+}
+.block {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 45%;
+  border: 2px solid #5361e4;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
